@@ -25,7 +25,7 @@ const config = {
         rules:[
             {
                 test: /\.vue$/,
-                use: 'vue-loader'
+                use: ['vue-loader']
             },
             {
                 test: /\.jsx$/,
@@ -39,7 +39,7 @@ const config = {
                 ]
             },
             {
-                test: /\.styl$/,
+                test: /\.styl/,
                 use: [
                     'style-loader',
                     'css-loader',
